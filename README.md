@@ -1,7 +1,7 @@
 ![image](https://github.com/user-attachments/assets/80105000-b21e-4306-9881-bba26e4d187e)
 
-# 🌐 Suffra Backend Server  
-API REST desenvolvida com Java Springboot para o aplicativo Suffra, desenvolvido como solução de gerenciamento de campanhas de conscientização relacionadas com energia sustentável.  
+# 🌐 Suffra IOT
+Projeto Suporte de Machine Learning para apoiar o sistema de gestão de campanhas de concientização para redução de consumo energético
 Link GitHub: https://github.com/eduardofuncao/suffra-iot
 
 ## 👥 Equipe  
@@ -9,22 +9,14 @@ Link GitHub: https://github.com/eduardofuncao/suffra-iot
 - Eduardo Felipe Nunes Função  553362  
 - Jhoe Yoshio Kochi Hashimoto  553831  
 
-## 🎥 Vídeos
+## 🎥 Vídeo
 https://youtu.be/v18d1QvW-Oo
 
 ## 📖 Contextualização  
 **Suffra** é um projeto que implementa uma competição gamificada para introdução de campanhas de conscientização para a população.  
 
-### 📊 Compreendendo as entidades do sistema  
-De forma genérica, para cada **campanha**, os **usuários** contribuirão por meio de **votos** para alguma **região**. Ao final do período de campanha, a região com maior quantidade de votos será determinada a vencedora, sendo contemplada com algum benefício.  
-
-> REGIÃO  -> Torres de um condomínio  
-> VOTO    -> Entradas de gastos energéticos por Torre  
-> USUÁRIO -> Morador do condomínio  
-
 ### ⚡ Como será utilizado nessa Entrega
 Especificamente, a proposta apresentada será uma campanha de conscientização sobre redução no consumo energético de torres de um condomínio residencial.  
-
 Ao final do período da campanha, a torre com menores gastos energéticos será a vencedora, garantindo aos seus moradores um desconto na conta de condomínio.  
 
 ### 🚀 Extensões futuras  
@@ -32,6 +24,8 @@ Como o sistema foi idealizado para ser utilizado em outras categorias que não o
 - 💧 Redução do consumo de água  
 - ♻️ Incentivo à reciclagem de lixo  
 - 🤝 Doações para causas sociais relacionadas à energia sustentável  
+- - Avaliação dos impactos do clima no consumo energético
+
 
 ---
 

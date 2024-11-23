@@ -243,4 +243,12 @@ Mean Squared Error (MSE): 1.633249221525243
 R-squared (R²): 0.9864965441560549
 
 ## Conclusão
+Observando a base de dados analisada, é possível observar que os dados de temperatura e outras condições climáticas geralmente seguem uma distribuição normal, sem a presença de outliers extremos. No caso dos dados de energia, não possuímos informações tão bem comportadas: existem muitos dados zerados devido a possíveis dias sem energia, e muitos dados com picos energéticos altos em relação à maioria dos valores, mas que não podem ser categorizados como outlier para esta pesquisa.
 
+A partir dos resultados obtidos, podemos tirar uma série de informações a respeito do nosso projeto e de nossa modelagem.
+No geral, todos os modelos foram capazes de predizer relativamente bem o consumo energético residencial a partir de dados climatológicos, sendo que todos os R² ficaram acima de 0.9, indicando uma boa qualidade de predição nos modelos.
+No entanto, dependendo do modelo utilizado, o tempo de execução e o tamanho dos erros quadráticos podem ser pontos de atenção
+
+Em relação ao tempo de execução, destaca-se negativamente o Random Forest, que, apesar de um baixo erro médio, demorou cerca de 5 minutos para execução. em uma máquina de 16GB de RAM e processador de 8 cores. De forma diferente, o modelo SGD foi o mais tempo-eficiente, tendo um resultado comparável ao modelo de Rede Neural, mas podendo ser executado num tempo muito mais reduzido.
+
+Em suma, para o seguimento do projeto, será utilizado o algoritmo SGD, que funciona muito bem para datasets grandes (mais de 1M de entradas)

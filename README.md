@@ -2,7 +2,7 @@
 
 # 🌐 Suffra Backend Server  
 API REST desenvolvida com Java Springboot para o aplicativo Suffra, desenvolvido como solução de gerenciamento de campanhas de conscientização relacionadas com energia sustentável.  
-Link GitHub: https://github.com/eduardofuncao/suffra-backend  
+Link GitHub: https://github.com/eduardofuncao/suffra-iot
 
 ## 👥 Equipe  
 - Artur Lopes Fiorindo         53481  
@@ -10,6 +10,7 @@ Link GitHub: https://github.com/eduardofuncao/suffra-backend
 - Jhoe Yoshio Kochi Hashimoto  553831  
 
 ## 🎥 Vídeos
+https://youtu.be/v18d1QvW-Oo
 
 ## 📖 Contextualização  
 **Suffra** é um projeto que implementa uma competição gamificada para introdução de campanhas de conscientização para a população.  
